@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Repositories;
+namespace QBitsStudio\BlogBagisto\Repositories;
 
 use Illuminate\Support\Facades\Event;
 use Webkul\Core\Eloquent\Repository;
@@ -14,7 +14,7 @@ class BlogCommentRepository extends Repository
      */
     function model()
     {
-        return 'Webbycrown\BlogBagisto\Models\Comment';
+        return 'QBitsStudio\BlogBagisto\Models\Comment';
     }
 
     /**

@@ -1,5 +1,5 @@
 {
-    "name": "webbycrown/blog-for-bagisto",
+    "name": "qbitsstudio/blog-for-bagisto",
     "description": "Blog for Bagisto",
     "type": "library",
     "license": "MIT",
@@ -7,12 +7,16 @@
         {
             "name": "WebbyCrown Solutions",
             "email": "info@webbycrown.com"
+        },
+        {
+            "name": "QBits Studio",
+            "email": "qbitsstudio@gmail.com"
         }
     ],
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/webbycrown/blog-for-bagisto"
+            "url": "https://github.com/qbitsstudio/blog-for-bagisto"
         }
     ],
     "require": {
@@ -26,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webbycrown\\BlogBagisto\\Providers\\BlogServiceProvider"
+                "QBitsStudio\\BlogBagisto\\Providers\\BlogServiceProvider"
             ],
             "aliases": {}
         }

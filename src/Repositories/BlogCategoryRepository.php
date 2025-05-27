@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Repositories;
+namespace QBitsStudio\BlogBagisto\Repositories;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
@@ -19,14 +19,14 @@ class BlogCategoryRepository extends Repository
      */
     function model()
     {
-        return 'Webbycrown\BlogBagisto\Models\Category';
+        return 'QBitsStudio\BlogBagisto\Models\Category';
     }
 
     /**
      * Save blog category.
      *
      * @param  array  $data
-     * @return bool|\Webbycrown\BlogBagisto\Contracts\Category
+     * @return bool|\QBitsStudio\BlogBagisto\Contracts\Category
      */
     public function save(array $data)
     {

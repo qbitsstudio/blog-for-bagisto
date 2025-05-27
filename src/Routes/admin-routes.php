@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\BlogController;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\CategoryController;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\TagController;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\CommentController;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\SettingController;
-use Webbycrown\BlogBagisto\Http\Controllers\Admin\ImportController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\BlogController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\CategoryController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\TagController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\CommentController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\SettingController;
+use QBitsStudio\BlogBagisto\Http\Controllers\Admin\ImportController;
 
 Route::group(['middleware' => ['web', 'admin'], 'prefix' => config('app.admin_url')], function () {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Datagrids;
+namespace QBitsStudio\BlogBagisto\Datagrids;
 
 use Illuminate\Support\Facades\DB;
 use Webkul\Core\Models\Channel;

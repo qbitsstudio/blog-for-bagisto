@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Import;
+namespace QBitsStudio\BlogBagisto\Import;
 
 use Webbycrown\BlogBagisto\Models\Blog;
 use Webbycrown\BlogBagisto\Models\Category;

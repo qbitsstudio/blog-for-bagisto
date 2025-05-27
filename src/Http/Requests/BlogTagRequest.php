@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Http\Requests;
+namespace QBitsStudio\BlogBagisto\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Webbycrown\BlogBagisto\Validations\BlogTagUniqueSlug;

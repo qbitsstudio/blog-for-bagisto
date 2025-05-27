@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Contracts;
+namespace QBitsStudio\BlogBagisto\Contracts;
 
 interface Category
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Http\Controllers\Admin;
+namespace QBitsStudio\BlogBagisto\Http\Controllers\Admin;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Foundation\Bus\DispatchesJobs;

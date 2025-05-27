@@ -12,7 +12,7 @@
             @if (bouncer()->hasPermission('blog.blogs.create'))
                 <a href="{{ route('admin.blog.create') }}">
                     <div class="primary-button">
-                        {{ __('Create Blog') }}
+                        {{ __('webbycrown::app.blog.create-blog') }}
                     </div>
                 </a>
             @endif

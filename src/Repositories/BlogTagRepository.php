@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Repositories;
+namespace QBitsStudio\BlogBagisto\Repositories;
 
 use Webkul\Core\Eloquent\Repository;
 use Illuminate\Support\Facades\Event;
@@ -14,14 +14,14 @@ class BlogTagRepository extends Repository
      */
     function model()
     {
-        return 'Webbycrown\BlogBagisto\Models\Tag';
+        return 'QBitsStudio\BlogBagisto\Models\Tag';
     }
 
     /**
      * Save blog tag.
      *
      * @param  array  $data
-     * @return bool|\Webbycrown\BlogBagisto\Contracts\Tag
+     * @return bool|\QBitsStudio\BlogBagisto\Contracts\Tag
      */
     public function save(array $data)
     {

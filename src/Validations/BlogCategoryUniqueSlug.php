@@ -1,13 +1,13 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Validations;
+namespace QBitsStudio\BlogBagisto\Validations;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\DB;
 use Webkul\Attribute\Repositories\AttributeRepository;
 use Webkul\Category\Models\CategoryTranslationProxy;
 use Webkul\Product\Repositories\ProductAttributeValueRepository;
-use Webbycrown\BlogBagisto\Models\Category;
+use QBitsStudio\BlogBagisto\Models\Category;
 
 class BlogCategoryUniqueSlug implements Rule
 {

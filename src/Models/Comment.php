@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Models;
+namespace QBitsStudio\BlogBagisto\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

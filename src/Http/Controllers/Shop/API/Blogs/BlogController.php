@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Http\Controllers\Shop\API\Blogs;
+namespace QBitsStudio\BlogBagisto\Http\Controllers\Shop\API\Blogs;
 
 use Illuminate\Routing\Controller;
 use Webbycrown\BlogBagisto\Models\Blog;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Providers;
+namespace QBitsStudio\BlogBagisto\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Event;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbycrown\BlogBagisto\Repositories;
+namespace QBitsStudio\BlogBagisto\Repositories;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
@@ -21,14 +21,14 @@ class BlogRepository extends Repository
      */
     function model()
     {
-        return 'Webbycrown\BlogBagisto\Models\Blog';
+        return 'QBitsStudio\BlogBagisto\Models\Blog';
     }
 
     /**
      * Save blog.
      *
      * @param  array  $data
-     * @return bool|\Webbycrown\BlogBagisto\Contracts\Blog
+     * @return bool|\QBitsStudio\BlogBagisto\Contracts\Blog
      */
     public function save(array $data)
     {
